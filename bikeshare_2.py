@@ -22,7 +22,7 @@ def get_filters():
     while(True):
         if(city == 'chicago' or city == 'new york' or city == 'washington' or city == 'all'):
             break
-        else:city = input('Enter Correct city: ').lower()
+        else:city = input('Enter a city: ').lower()
     # get user input for month (all, january, february, ... , june)
     month = input('\nWhich month? January, February, March, April, May, or June?\n').lower()
     while(True):
